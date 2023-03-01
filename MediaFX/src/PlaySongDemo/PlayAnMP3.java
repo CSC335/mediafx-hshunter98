@@ -1,5 +1,6 @@
 package PlaySongDemo;
-
+// My name is Hunter Sharp and I'm commenting this because I wanted more color
+// in this program. It had enough blue so I'm adding green to it.
 /**
  * This code will play any song assuming that file is in folder songfiles. 
  * 
@@ -27,8 +28,9 @@ public class PlayAnMP3 extends Application {
 
   @Override
   public void start(Stage stage) throws Exception {
+    // I have changed the song! :D
     BorderPane pane = new BorderPane();
-    String path = "songfiles/Capture.mp3";
+    String path = "songfiles/DanseMacabreViolinHook.mp3";
     pane.setCenter( new Label(path));
     playASong(path);
     // Put the pane in a sized Scene and show the GUI
